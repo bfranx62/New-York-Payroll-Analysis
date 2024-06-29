@@ -1,1 +1,11 @@
+# Ignore .csv files - most of them for this project are just too big. 
+*.csv
 
+# Ignore .txt files - they were just used/created for documentation
+*.txt
+
+# Ignore .xlsx files - also too big
+*.xlsx
+
+# Ignore .pyc pycache files. Unnecessary to see. 
+*.pyc
