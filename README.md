@@ -11,3 +11,8 @@ The purpose of this project was to use NYC Payroll data to analyze which city ag
 
 [1]: https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e/about_data        "NYC Citywide Payroll Data"
 [2]: https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html                 "City and Town Population Totals: 2020-2023"
+
+## Structure and Activities
+### Data Cleaning
+Data cleaning for this project was extensive and, aside from building my Tableau visualization, far and away occupied the greatest portion of my time. Some steps were easy, like the standardization of string columns to be all caps and the standardization of the dates columns using the pandas function to_datetime. I handled missing values as follows:
+* **Work Location Borough**:
